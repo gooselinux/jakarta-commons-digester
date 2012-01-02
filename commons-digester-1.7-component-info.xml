@@ -1,0 +1,15 @@
+<project name="apache-commons-digester">
+   <component id="apache-digester"
+              licenseType="apache-2.0"
+              version="1.7brew"
+              projectHome="http://jakarta.apache.org/commons/digester/"
+              description="XML to Java object mapping module"
+              scm=":ext:cvs.devel.redhat.com:/cvs/dist/jakarta-commons-digester"
+              tag="jakarta-commons-digester-1_7-7jpp_2">
+      <!-- Built using JDK 1.4 -->
+      <artifact id="commons-digester.jar"/>
+      <export>
+         <include input="commons-digester.jar"/>
+      </export>
+   </component>
+</project>
